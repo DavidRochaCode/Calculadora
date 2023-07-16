@@ -68,7 +68,7 @@ button {
     border: none;
     border-radius: 25px;
     cursor: pointer;
-    background:rgb(219, 219, 10);
+    background: #262834;
     color: #ffffff;
     font-weight: 500;
 }
@@ -81,5 +81,5 @@ button:active {
 }
 
 .highlight {
-    background: #56cbdb;
+    background: rgb(239, 239, 34);
 }

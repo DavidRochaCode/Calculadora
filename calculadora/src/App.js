@@ -72,7 +72,7 @@ function App() {
           <button className='func' name="MC" onClick={handleClick}>MC</button> {/* Limpa a memória */}
           <button className='func' name="MR" onClick={handleClick}>MR</button> {/* Recupera o valor da memória */}
           <button className='func' name="M-" onClick={handleClick}>M-</button> {/* Subtrai o valor atual da memória */}
-          <button className={`${mPlusAtivo ? 'ativo' : ''}`} name="M+" onClick={handleClick}>M+</button> {/* Adiciona o valor atual à memória */}
+          <button  className={`${mPlusAtivo ? 'ativo' : 'func'}`}  name="M+" onClick={handleClick}>M+</button> {/* Adiciona o valor atual à memória */}
           <button className="highlight" onClick={calculate} id="result">=</button>
         </div>
       </div>

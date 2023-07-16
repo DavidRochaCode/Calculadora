@@ -81,5 +81,9 @@ button:active {
 }
 
 .highlight {
-    background: rgb(239, 239, 34);
+    background:#FF9500;
+}
+
+.func{
+    background: #A2A2A2;
 }

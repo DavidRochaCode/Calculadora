@@ -6,7 +6,6 @@
 }
 
 
-
 body {
     display: flex;
     justify-content: center;
@@ -14,7 +13,7 @@ body {
 }
 
 button.ativo {
-    background-color: rgb(57, 206, 57); /* Define a cor vermelha para o botão ativo */
+    background-color: rgb(57, 206, 57); 
   }
 
 .container {
@@ -69,7 +68,7 @@ button {
     border: none;
     border-radius: 25px;
     cursor: pointer;
-    background: #262834;
+    background:rgb(219, 219, 10);
     color: #ffffff;
     font-weight: 500;
 }
